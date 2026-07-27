@@ -18,16 +18,41 @@ Built for Android head units, retro-gaming handhelds, and any device where you w
 
 ## Demo
 
-| Before — No Controller | After — Controller Connected |
-|:---:|:---:|
-| <img src="docs/images/BeforeGameShift.gif" width="100%" alt="Normal launcher — no controller" /><br/>Pressing HOME opens the normal launcher. | <img src="docs/images/AfterGameShift.gif" width="100%" alt="Game launcher — controller connected" /><br/>Pressing HOME opens your game launcher. |
+<table>
+  <tr>
+    <td width="50%" align="center"><strong>Before — No Controller</strong></td>
+    <td width="50%" align="center"><strong>After — Controller Connected</strong></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/images/BeforeGameShift.gif" width="100%" alt="Normal launcher — no controller" /><br/><em>Pressing HOME opens the normal launcher.</em></td>
+    <td align="center"><img src="docs/images/AfterGameShift.gif" width="100%" alt="Game launcher — controller connected" /><br/><em>Pressing HOME opens your game launcher.</em></td>
+  </tr>
+</table>
 
 ## Screenshots
 
-| Onboarding | Setup | Main Settings |
-|:---:|:---:|:---:|
-| <img src="docs/images/GameShiftOnboarding_Page1-Welcome.jpg" width="100%" alt="Welcome" /> | <img src="docs/images/GameShiftOnboarding_Page2-HowItWorks.jpg" width="100%" alt="How It Works" /> | <img src="docs/images/GameShiftOnboarding_Page4-ActivateShizuku.jpg" width="100%" alt="Activate Shizuku" /> |
-| <img src="docs/images/GameShiftOnboarding_Page6-ConfigureLaunchers.jpg" width="100%" alt="Configure Launchers" /> | <img src="docs/images/GameShiftOnboarding_Page7-Completed.jpg" width="100%" alt="Onboarding Complete" /> | <img src="docs/images/GameShiftMainScreen.jpg" width="100%" alt="Main Settings" /> |
+<table>
+  <tr>
+    <td width="33%" align="center"><strong>Welcome</strong></td>
+    <td width="33%" align="center"><strong>How It Works</strong></td>
+    <td width="33%" align="center"><strong>Activate Shizuku</strong></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/images/GameShiftOnboarding_Page1-Welcome.jpg" width="100%" alt="Welcome" /></td>
+    <td align="center"><img src="docs/images/GameShiftOnboarding_Page2-HowItWorks.jpg" width="100%" alt="How It Works" /></td>
+    <td align="center"><img src="docs/images/GameShiftOnboarding_Page4-ActivateShizuku.jpg" width="100%" alt="Activate Shizuku" /></td>
+  </tr>
+  <tr>
+    <td width="33%" align="center"><strong>Configure Launchers</strong></td>
+    <td width="33%" align="center"><strong>Onboarding Complete</strong></td>
+    <td width="33%" align="center"><strong>Main Settings</strong></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/images/GameShiftOnboarding_Page6-ConfigureLaunchers.jpg" width="100%" alt="Configure Launchers" /></td>
+    <td align="center"><img src="docs/images/GameShiftOnboarding_Page7-Completed.jpg" width="100%" alt="Onboarding Complete" /></td>
+    <td align="center"><img src="docs/images/GameShiftMainScreen.jpg" width="100%" alt="Main Settings" /></td>
+  </tr>
+</table>
 
 ---
 
