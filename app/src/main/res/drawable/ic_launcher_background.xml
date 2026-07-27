@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Adaptive icon background — deep dark with subtle arcade grid pattern -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Solid dark background -->
+    <path
+        android:fillColor="#0A0A1A"
+        android:pathData="M0,0 h108 v108 h-108 z" />
+
+    <!-- Subtle grid lines — retro arcade CRT scanline effect -->
+    <group>
+        <!-- Horizontal scanlines -->
+        <path
+            android:fillColor="#FF00FF08"
+            android:pathData="M0,18 h108
+                M0,36 h108
+                M0,54 h108
+                M0,72 h108
+                M0,90 h108" />
+
+        <!-- Vertical grid -->
+        <path
+            android:fillColor="#00FFFF08"
+            android:pathData="M18,0 v108
+                M36,0 v108
+                M54,0 v108
+                M72,0 v108
+                M90,0 v108" />
+    </group>
+
+    <!-- Subtle vignette corners -->
+    <path
+        android:fillColor="#FF00FF10"
+        android:pathData="M0,0 h30 v30 z M78,0 h30 v30 z M0,78 h30 v30 z M78,78 h30 v30 z" />
+</vector>

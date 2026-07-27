@@ -1,0 +1,19 @@
+# GitIgnore for GameShift (Android project)
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build/
+/captures
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+/app/build/
+.omo/
+.playwright-cli/
+*.jks
+
+
+mascot_chatgpt.png

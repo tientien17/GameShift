@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.GameShift" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/arcade_primary</item>
+        <item name="colorPrimaryDark">@color/arcade_primary_dark</item>
+        <item name="colorAccent">@color/arcade_secondary</item>
+        <item name="android:statusBarColor">@color/arcade_background</item>
+        <item name="android:navigationBarColor">@color/arcade_background</item>
+        <item name="android:windowBackground">@color/arcade_background</item>
+    </style>
+
+    <style name="Theme.GameShift.Transparent" parent="Theme.GameShift">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+</resources>

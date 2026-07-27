@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Adaptive icon foreground — retro arcade controller logo, centered in safe zone -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <group
+        android:translateX="6"
+        android:translateY="6">
+
+        <!-- Outer glow ring -->
+        <path
+            android:fillColor="#FF00FF20"
+            android:pathData="M48,6 a42,42 0 1 1 0,84 a42,42 0 1 1 0,-84 Z" />
+
+        <!-- Controller body -->
+        <path
+            android:fillColor="#FF00FF"
+            android:pathData="M20,28 L76,28 Q84,28 84,36 L84,60 Q84,68 76,68 L20,68 Q12,68 12,60 L12,36 Q12,28 20,28 Z" />
+
+        <!-- Controller inner panel -->
+        <path
+            android:fillColor="#CC00CC"
+            android:pathData="M22,32 L74,32 Q78,32 80,36 L80,56 Q80,60 78,62 L22,62 Q20,60 20,56 L20,36 Q20,32 22,32 Z" />
+
+        <!-- D-Pad cross -->
+        <path
+            android:fillColor="#00FFFF"
+            android:pathData="M27,36 h6 v8 h8 v6 h-8 v8 h-6 v-8 h-8 v-6 h8 z" />
+
+        <!-- A Button -->
+        <path
+            android:fillColor="#00FFFF"
+            android:pathData="M60,38 a7,7 0 1 1 0,14 a7,7 0 1 1 0,-14 Z" />
+
+        <!-- B Button -->
+        <path
+            android:fillColor="#00FFFF"
+            android:pathData="M75,48 a7,7 0 1 1 0,14 a7,7 0 1 1 0,-14 Z" />
+
+        <!-- Select dot -->
+        <path
+            android:fillColor="#FFFF00"
+            android:pathData="M43,45 a3,3 0 1 1 0,6 a3,3 0 1 1 0,-6 Z" />
+
+        <!-- Start dot -->
+        <path
+            android:fillColor="#FFFF00"
+            android:pathData="M50,45 a3,3 0 1 1 0,6 a3,3 0 1 1 0,-6 Z" />
+
+        <!-- Top accent stripe -->
+        <path
+            android:fillColor="#FFFF00"
+            android:pathData="M36,24 h24 a2,2 0 0 1 2,2 v2 a2,2 0 0 1 -2,2 h-24 a2,2 0 0 1 -2,-2 v-2 a2,2 0 0 1 2,-2 Z" />
+
+    </group>
+</vector>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GameShift</string>
+    <string name="channel_name">Controller Monitor</string>
+    <string name="channel_desc">Monitoring for game controller connection</string>
+    <string name="notification_text">Watching for controller…</string>
+    <string name="service_running">Controller monitor is running</string>
+    <string name="title_select_game_launcher">Game Launcher App</string>
+    <string name="desc_select_game_launcher">Launched when HOME is pressed with a controller connected</string>
+    <string name="title_select_normal_launcher">Normal Launcher</string>
+    <string name="desc_select_normal_launcher">Launched when no controller is detected</string>
+    <string name="btn_select">Select</string>
+    <string name="btn_start">Start Service</string>
+    <string name="btn_stop">Stop Service</string>
+    <string name="status_controller_connected">🎮 Controller connected</string>
+    <string name="status_controller_disconnected">No controller</string>
+    <string name="status_service_running">Service is running</string>
+    <string name="status_service_stopped">Service is stopped</string>
+    <string name="pref_game_launcher">game_launcher_package</string>
+    <string name="pref_normal_launcher">normal_launcher_package</string>
+    <string name="pref_last_connected">last_controller_state</string>
+    <string name="pref_original_launcher">original_launcher_package</string>
+    <string name="shizuku_not_running">Shizuku is not running. Please start Shizuku first.</string>
+    <string name="launcher_set_success">Launcher set successfully</string>
+    <string name="launcher_set_failed">Failed to set launcher</string>
+    <string name="no_game_launcher">No game launcher configured</string>
+    <string name="no_normal_launcher">No normal launcher configured</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_skip">Skip</string>
+    <string name="onboarding_next">Next</string>
+    <string name="onboarding_get_started">Get Started</string>
+    <string name="onboarding_complete">Complete Onboarding</string>
+
+    <!-- Page 1: Welcome -->
+    <string name="onb_welcome_title">Welcome to GameShift</string>
+    <string name="onb_welcome_subtitle">Auto-switch your launcher when a game controller connects</string>
+    <string name="onb_welcome_feature1">Detects controllers automatically</string>
+    <string name="onb_welcome_feature2">Switches launcher instantly</string>
+    <string name="onb_welcome_feature3">Powered by Shizuku</string>
+
+    <!-- Page 2: How It Works -->
+    <string name="onb_how_title">How It Works</string>
+    <string name="onb_how_step1">Connect a controller</string>
+    <string name="onb_how_step2">GameShift detects it</string>
+    <string name="onb_how_step3">Press HOME → game launcher opens</string>
+    <string name="onb_how_step4">Disconnect → normal launcher restored</string>
+
+    <!-- Page 3: Shizuku -->
+    <string name="onb_shizuku_title">Shizuku Required</string>
+    <string name="onb_shizuku_desc">GameShift uses Shizuku to change your default launcher app. Shizuku is a free, open-source service that gives apps system-level permissions without root.</string>
+    <string name="onb_shizuku_download">Download Shizuku</string>
+    <string name="onb_shizuku_playstore">Open Play Store</string>
+    <string name="onb_shizuku_already">Already installed? Tap Next.</string>
+
+    <!-- Page 4: Activate -->
+    <string name="onb_activate_title">Activate Shizuku</string>
+    <string name="onb_activate_adb_title">Method 1: ADB (no root)</string>
+    <string name="onb_activate_adb_desc">Connect your phone to a computer with USB debugging enabled</string>
+    <string name="onb_activate_adb_cmd">adb shell sh /data/local/tmp/shizuku/start.sh</string>
+    <string name="onb_activate_adb_note">Enable USB debugging in Developer Options first</string>
+    <string name="onb_activate_root_title">Method 2: Root</string>
+    <string name="onb_activate_root_desc">If your phone is rooted, just enable Shizuku in the Shizuku app directly.</string>
+
+    <!-- Page 5: Permission -->
+    <string name="onb_perm_title">Grant Permission</string>
+    <string name="onb_perm_desc">GameShift needs Shizuku permission to switch your launcher.</string>
+    <string name="onb_perm_grant">Grant Shizuku Permission</string>
+    <string name="onb_perm_granted">Permission granted ✓</string>
+    <string name="onb_perm_fallback">If the dialog doesn\'t appear, open Shizuku Manager and grant permission manually.</string>
+
+    <!-- Page 6: Configure -->
+    <string name="onb_config_title">Configure Launchers</string>
+    <string name="onb_config_game_label">Game Launcher</string>
+    <string name="onb_config_game_desc">Launched when HOME is pressed with a controller connected</string>
+    <string name="onb_config_normal_label">Normal Launcher</string>
+    <string name="onb_config_normal_desc">Your regular launcher when no controller is connected</string>
+    <string name="onb_config_select">Select Launcher App</string>
+    <string name="onb_config_not_set">Not set</string>
+    <string name="onb_config_note">You can change these anytime in settings</string>
+
+    <!-- Page 7: Done -->
+    <string name="onb_done_title">You\'re All Set!</string>
+    <string name="onb_done_desc">GameShift is ready to go. Start the monitoring service to begin auto-switching.</string>
+    <string name="onb_done_start">Start Service</string>
+    <string name="onb_done_running">Service running ✓</string>
+</resources>

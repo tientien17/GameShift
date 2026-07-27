@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Sony PlayStation controllers (DualShock 4, DualSense, etc.) -->
+    <usb-device vendor-id="1356" />         <!-- 0x054C -->
+
+    <!-- Microsoft Xbox controllers (Xbox 360, Xbox One, Xbox Series) -->
+    <usb-device vendor-id="1118" />         <!-- 0x045E -->
+
+    <!-- Nintendo Switch Pro Controller / Joy-Con -->
+    <usb-device vendor-id="1406" />         <!-- 0x057E -->
+
+    <!-- Generic HID gamepads — fallback for unbranded / random VID controllers
+         Runtime filtering via ControllerDetector.isGameController() provides
+         the actual gate for devices matched here. -->
+    <usb-device />
+</resources>

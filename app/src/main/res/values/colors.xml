@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Retro Arcade Palette -->
+    <color name="arcade_background">#0A0A1A</color>
+    <color name="arcade_surface">#150A25</color>
+    <color name="arcade_surface_variant">#1E1035</color>
+    <color name="arcade_primary">#FF00FF</color>
+    <color name="arcade_primary_dark">#CC00CC</color>
+    <color name="arcade_secondary">#00FFFF</color>
+    <color name="arcade_accent">#FFFF00</color>
+    <color name="arcade_error">#FF3333</color>
+    <color name="arcade_on_background">#E0E0E0</color>
+    <color name="arcade_on_surface">#FFFFFF</color>
+    <color name="arcade_on_primary">#FFFFFF</color>
+    <color name="arcade_on_secondary">#000000</color>
+    <color name="arcade_neon_glow">#FF00FF40</color>
+
+    <!-- App Icon Colors -->
+    <color name="ic_launcher_background">#0A0A1A</color>
+</resources>
